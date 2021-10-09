@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            background-color: #85dcb8;
+            color: white;
+        }
+
+        div {
+            width: 60rem;
+            height: 22rem;
+            border: 30px solid #FBECC1;
+            padding: 15px;
+            background-color: rgb(99, 119, 184);
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        h3 {
+            color: rgb(231, 225, 225);
+        }
+
+        li {
+            font-size: 20px;
+        }
+        img{
+            margin-left: 12rem;
+            margin-top: 8rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>BOX MODEL</h1>
+    <div>
+        <h3>
+            The CSS box model as a whole applies to block boxes. Inline boxes use just some of the behavior defined in
+            the box model. The model defines how the different parts of a box — margin, border, padding, and content —
+            work together to create a box that you can see on a page. To add some additional complexity, there is a
+            standard and an alternate box model.
+        </h3>
+        <ul>
+            <li>
+                <b>Content box:</b> The area where your content is displayed, which can be sized using properties like
+                width
+                and height.
+            </li>
+            <br>
+            <li>
+                <b>Padding box:</b> The padding sits around the content as white space; its size can be controlled using
+                padding and related properties.
+            </li><br>
+            <li>
+                <b>Border box:</b> The border box wraps the content and any padding. Its size and style can be
+                controlled using
+                border and related properties.
+            </li><br>
+            <li>
+                <b>box:</b> The margin is the outermost layer, wrapping the content, padding, and border as whitespace
+                between this box and other elements. Its size can be controlled using margin and related
+                properties.
+            </li>
+        </ul>
+
+        <img src="box-model.png" alt="">
+    </div>
+</body>
+
+</html>
